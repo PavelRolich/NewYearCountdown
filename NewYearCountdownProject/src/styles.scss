@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+$height: 100%;
+
+html {
+  height: $height;
+}
+
+body {
+  height: $height;
+  margin: 0; 
+  font-family: Roboto, "Helvetica Neue", sans-serif; 
+  background-color: #323975;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}

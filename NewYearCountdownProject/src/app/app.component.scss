@@ -1,0 +1,46 @@
+$font-size: 36px;
+
+.content {
+  min-height: calc(100vh - 150px);
+
+  .text-block {
+    display: flex;
+    flex-direction: row;
+  
+    .img-snowflake {
+      width: 150px;
+    }
+  
+    .tricky-text {
+      padding: 0;
+      margin: auto;
+  
+      .text-title {
+        font-size: $font-size;
+        margin: 0;
+      }
+  
+      .text-subtitle {
+        font-size: 24px;
+        margin: 0;
+      }
+    }
+  }
+  
+  .timer-block {
+  
+    .timer {
+      font-size: $font-size;
+    }
+  }
+}
+
+
+
+.footer {
+
+  .dog {
+    font-size: 36px;
+    margin: 50px 0;
+  }
+}
